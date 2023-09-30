@@ -5,6 +5,7 @@ import Link from "next/link";
 import { CgClose } from "react-icons/cg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion } from "framer-motion";
+import Logo from "@/components/Logo";
 function Navbar() {
   const [navbarVisible, setNavbarVisible] = useState(false);
   const [responsiveVisible, setResponsiveVisible] = useState(false);
@@ -65,7 +66,7 @@ function Navbar() {
        
         >
           <Link href="">
-          ShopKart
+          <Logo/>
           </Link>
         </motion.div>
         <motion.div className="nav-responsive-toggle"

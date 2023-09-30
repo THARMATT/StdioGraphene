@@ -43,8 +43,8 @@ function banner() {
       <div className="right">
        
         <ul className="bannerlinks">
-        <li>Login</li>
-          <li>Follow Us</li>
+       <Link href=""> <li>Login</li></Link>
+       <Link href=""> <li>Follow Us</li></Link>
           {bannerLinks.map(({ name, icon, link }) => (
             <li key={name} title={name} className="footer-icons-list-item">
               <Link

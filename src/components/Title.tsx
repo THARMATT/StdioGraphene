@@ -1,4 +1,3 @@
-// Title.tsx
 
 import React from 'react';
 
@@ -15,6 +14,7 @@ const Title: React.FC<TitleProps> = ({ wishlistCount, bagCount }) => {
         <span>WISHLIST ({wishlistCount})</span>
         <span>BAG ({bagCount})</span>
       </div>
+     
     </div>
   );
 };

@@ -4,11 +4,11 @@ import ContactForm from "../components/ContactForm";
 function Footer() {
   return (
     <>
-      {" "}
-      <div>
+      
         <div className="footer">
           <div className="bg-image">
-           <div className="flex"> <div className="left">
+           <div className="flex"> 
+           <div className="left">
               {" "}
               <h3>Newslleter</h3>
               <p>Get news about articles and updates in your inbox.</p>
@@ -19,13 +19,17 @@ function Footer() {
             <div className="right">
               <ContactForm />
             </div></div>
-            
+          <div className="footer-end">
+          <p> &copy; 2023 All Right Reserved By NiGAM</p>
           </div>
+          </div>
+
         </div>
-      </div>
-      <div className="footer-end">
-        <span>Copyright 2023 All Right Reserved By Nigam Sharma</span>
-      </div>
+
+     
+      
+       
+      
     </>
   );
 }
