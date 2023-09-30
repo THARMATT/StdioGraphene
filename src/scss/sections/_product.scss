@@ -1,0 +1,20 @@
+.product{
+    background-color: white !important;
+    height: max-content;
+    width: 100vw;
+    h1{
+        font-size: larger;
+        font-weight: 800;
+        font-size: 100px;
+    }
+   .content{
+display: flex;
+// flex-wrap: wrap;
+.details{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    margin: 1rem;
+}
+   }
+}

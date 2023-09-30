@@ -1,0 +1,37 @@
+/* ProductCard.module.css */
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+  }
+  
+  .product-card img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .product-details {
+    margin-top: 16px;
+  }
+  
+  .product-details h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .product-details p {
+    font-size: 14px;
+  }
+  
+  .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 8px;
+  }
+  

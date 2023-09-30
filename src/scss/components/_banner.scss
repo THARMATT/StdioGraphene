@@ -1,0 +1,38 @@
+.bg-top {
+  background-color: #1a1a1a;
+  // font-weight: 400;
+  // font-size: 12px;
+  // line-height: 18px;
+  border-bottom: 1px solid #0c8ae6;
+  display: flex;
+  justify-content: space-between;
+  .right {
+    margin-right: 10px;
+  }
+  .right ul {
+    display: flex;
+    color: var(--top-text);
+    gap: 1rem;
+    list-style: none;
+    margin-right: 10px;
+    .bannerlinks {
+      gap: 0.8rem;
+    }
+    .bannerlinks-icon {
+      color: var(--top-text);
+      list-style: none;
+      gap: 10px;
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .left ul {
+    display: flex;
+    color: var(--top-text);
+    // list-style-type: none;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 10px;
+  }
+}
