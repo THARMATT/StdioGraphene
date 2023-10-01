@@ -18,12 +18,17 @@ function Hero() {
     </div>
       </div>
       <div className="right">
-
-        <Image src="/hero.png" alt="ShopKart img"  className="img" width={400} // Set the width of the image
+      <Image src="/star3.png" alt="ShopKart-star"  className="img-star" width={250} 
+        height={250}/>{" "}
+        <Image src="/hero.png" alt="ShopKart-hero"  className="img" width={400} 
         height={500}/>{" "}
       </div>
      </div>
-      <div className="color"></div>
+      <div className="color">
+        <span>OREGON JACKET</span>
+        <br />
+        <span>$124</span>
+      </div>
   
 </div>
    

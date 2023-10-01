@@ -23,7 +23,7 @@ function Index() {
       <Navbar/>
       <Hero/>
       <Products/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
