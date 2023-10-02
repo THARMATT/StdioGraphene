@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-// import Logo from "@/components/Logo";
-// import Button from "@/components/Button";
 import { CgClose } from "react-icons/cg";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { motion } from "framer-motion";
@@ -13,14 +11,14 @@ function Navbar() {
 
   const sectionLinks = [
     { name: 'Home', id: 'home', link:"#home"},
-    { name: 'About', id: 'about' , link:"#home"},
-    { name: 'Our Products', id: 'product', link:"#home" ,child: [
-    { name: 'Product 1', id: 'p1', link:"#home"},
-    { name: 'Product 2', id: 'p2' , link:"#home"},
-    { name: 'Product 3', id: 'p3', link:"#home"},
-    { name: 'Product 4', id: 'p4' , link:"#home"},
+    { name: 'About', id: 'about' , link:"#product"},
+    { name: 'Our Products', id: 'product', link:"#product" ,child: [
+    { name: 'Product 1', id: 'p1', link:"#product"},
+    { name: 'Product 2', id: 'p2' , link:"#product"},
+    { name: 'Product 3', id: 'p3', link:"#product"},
+    { name: 'Product 4', id: 'p4' , link:"#product"},
     ] },
-    { name: 'Contact Us', id: 'contact', link:"#home"},
+    { name: 'Contact Us', id: 'contact', link:"#footer"},
     ];
 
   useEffect(() => {
@@ -65,7 +63,7 @@ function Navbar() {
         <motion.div className="brand"
        
         >
-          <Link href="">
+          <Link href="#home">
           <Logo/>
           </Link>
         </motion.div>
@@ -105,16 +103,7 @@ function Navbar() {
               </motion.li>
             ))}
           </ul>
-          {/* <motion.div className="nav-items-button"
-           initial={{opacity:0,y:-25}}
-           animate={{opacity:1,y:0}}
-           transition={{duration:0.3,
-           ease:"easeInOut",delay:0.6}}>
-            <Button
-              text="Resume"
-              link="https://www.canva.com/design/DAFqYShe06I/QPRNgxnA-wBBlGFDkiEheg/view?utm_content=DAFqYShe06I&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-            />
-          </motion.div> */}
+        
         </div>
       </div>
     </nav>

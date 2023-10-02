@@ -3,7 +3,7 @@ import React from "react";
 import { FaAngleRight } from 'react-icons/fa';
 function Hero() {
   return (
-    <div className="hero ">
+    <div className="hero " id="home">
      <div className="flex">
      <div className="left">
         {" "}
@@ -13,8 +13,7 @@ function Hero() {
         <div className="see-more">
        <div className="hr">   <span><hr /> </span> <span><Image src="/star4.png" alt="ShopKart img"  className="star4" width={50} 
         height={50}/>{" "} </span></div>
-      <span>See More</span>
-      <FaAngleRight className="arrow-icon" />
+      
     </div>
       </div>
       <div className="right">

@@ -11,7 +11,7 @@ function Products() {
       };
   return (
     <div>
-      <div className="product">
+      <div className="product" id="product">
         <h1>New Products</h1>
         <div className="hr">
          <span> <hr /></span>
@@ -25,22 +25,9 @@ function Products() {
             <span>Best sellers</span>
             <span>50% off</span>
           </div>
-        
           <div className="card">
             <ProductCard {...productProps} />
-            
-          </div>
-          <div className="card">
-            <ProductCard {...productProps} />
-            
-          </div>
-          <div className="card">
-            <ProductCard {...productProps} />
-            
-          </div> <div className="card">
-            <ProductCard {...productProps} />
-            
-          </div> 
+            </div>
         </div>
       </div>
     </div>

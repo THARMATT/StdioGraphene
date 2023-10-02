@@ -1,45 +1,119 @@
-.product{
-    background-color: white !important;
-    height: max-content;
-    width: 100vw;
-    h1{
-        font-family: var(--syne);
-        font-weight: 600;
-        font-size: 90px;
-        line-height: 108px;
-    }
-    .hr{
-        display: flex;
-        hr{
-            width: 700px;
-            height: 2px;
-            color: var(--top-head);
-        }
-       .star2{
-        height: 20px;
-        width:20px;
-   margin:10px 40px;
-   display: none;
-       }
-     
-    }
-   .content{
-display: flex;
+.product {
+  background-color: white !important;
+  height: max-content;
+  width: 100vw;
 
-.details{
+  h1 {
     font-family: var(--syne);
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 108px;
+  }
+  .hr {
     display: flex;
-    flex-direction: column;
-    gap:1rem;
-    margin: 1rem;
-   span{
+    position: relative;
+    hr {
+      width: 42.5rem;
+      height: 2px;
+      color: var(--top-head);
+      position: absolute;
+    }
+    .star2 {
+      height: 20px;
+      width: 20px;
+      top: -0.6rem;
+      left: 42rem;
+      position: absolute;
+    }
+  }
+  .content {
+    display: flex;
 
-    &:hover{
-        font-weight: 500;
-  font-size: 14px;
+    .details {
+      font-family: var(--syne);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin: 1rem;
 
-cursor: pointer;
-    }}
+      span {
+        transition: 0.3s ease-in-out;
+        &:hover {
+          font-weight: 500;
+          font-size: 14px;
+          transform: translate(-2px);
+          cursor: pointer;
+        }
+      }
+    }
+    .card{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+  }
 }
-   }
+@media screen and (max-width: 768px) {
+  .product {
+    h1 {
+      font-size: 60px;
+    }
+    .hr {
+      hr {
+        width: 28.5rem;
+      }
+      .star2 {
+        left: 28rem;
+        top: -0.6rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .product {
+    h1 {
+      font-size: 50px;
+    }
+    .hr {
+      hr {
+        width: 24.5rem;
+      }
+      .star2 {
+        left: 24rem;
+        top: -0.6rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  .product {
+    h1 {
+      font-size: 30px;
+    }
+    .hr {
+      top: -30px;
+      hr {
+        width: 14.5rem;
+        color: black;
+        fill: black;
+      }
+      .star2 {
+        left: 14rem;
+        top: -0.6rem;
+      }
+    }
+    .content {
+      display: block;
+      .details {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        font-size: 10px;
+        margin-top:2px;
+      }
+    }
+  }
 }

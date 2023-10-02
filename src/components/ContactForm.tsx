@@ -90,16 +90,16 @@ const ContactForm: React.FC = () => {
         </div>
 
         <div className="form-group">
-          <textarea
+          <input
             id="message"
             placeholder='Message'
             name="message"
             value={formData.message}
             onChange={handleChange}
             className="underline-input"
-            rows={1}
+            
             required
-          ></textarea>
+          ></input>
         </div>
 
         <button type="submit" className="submit-button" id="magnetic-button">
