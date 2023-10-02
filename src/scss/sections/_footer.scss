@@ -10,6 +10,8 @@
   height: 400px;
   color: #fff;
   position: relative;
+  width: 100vw;
+
   .flex {
     display: flex;
     .left {
@@ -79,6 +81,8 @@
 
 @media screen and (max-width: 1300px) {
   .footer {
+    width: 100vw;
+
     position: relative;
     height: 21rem;
     .flex {
@@ -143,6 +147,8 @@
 }
 @media screen and (max-width: 1054px) {
   .footer {
+    width: 100vw;
+
     position: relative;
     height: 21rem;
     .flex {
@@ -211,6 +217,8 @@
 }
 @media screen and (max-width: 768px) {
   .footer {
+    width: 100vw;
+
     position: relative;
     height: 21rem;
     .flex {
@@ -282,6 +290,8 @@
 }
 @media screen and (max-width: 400px) {
   .footer {
+    width: 100vw;
+
     position: relative;
     height: 21rem;
     .flex {
@@ -343,6 +353,8 @@
 }
 @media screen and (max-width: 300px) {
   .footer {
+    width: 100vw;
+
     position: relative;
     height: 21rem;
     .flex {

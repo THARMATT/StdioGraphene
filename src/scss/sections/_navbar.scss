@@ -1,4 +1,6 @@
 nav {
+  width: 100vw;
+
   height: 5rem;
   .wrapper {
     width: 100%;
@@ -12,7 +14,7 @@ nav {
     .brand {
       a {
    
-          font-family: Poppins;
+          font-family: var(--poppins);
           font-size: var(--tx2large);
           font-weight: 275;
           line-height: 60px;

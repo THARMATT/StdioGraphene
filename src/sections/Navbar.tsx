@@ -13,10 +13,10 @@ function Navbar() {
     { name: 'Home', id: 'home', link:"#home"},
     { name: 'About', id: 'about' , link:"#product"},
     { name: 'Our Products', id: 'product', link:"#product" ,child: [
-    { name: 'Product 1', id: 'p1', link:"#product"},
-    { name: 'Product 2', id: 'p2' , link:"#product"},
-    { name: 'Product 3', id: 'p3', link:"#product"},
-    { name: 'Product 4', id: 'p4' , link:"#product"},
+    { name: 'Jwellery', id: 'p1', link:"#product"},
+    { name: 'Electronics', id: 'p2' , link:"#product"},
+    { name: 'Manifold Elegance', id: 'p3', link:"#product"},
+    { name: 'Femme Couture', id: 'p4' , link:"#product"},
     ] },
     { name: 'Contact Us', id: 'contact', link:"#footer"},
     ];
